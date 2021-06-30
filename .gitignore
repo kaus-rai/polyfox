@@ -1,0 +1,8 @@
+#node Modules
+node_modules
+
+#Test Logs
+logs
+
+#DS Store File
+.DS_Store
