@@ -1,0 +1,23 @@
+{
+  "name": "poly",
+  "version": "1.0.0",
+  "description": "Log Rotator Package",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaus2595/poly.git"
+  },
+  "keywords": [
+    "logrotator",
+    "pino"
+  ],
+  "author": "Kaustubh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaus2595/poly/issues"
+  },
+  "homepage": "https://github.com/kaus2595/poly#readme"
+}
