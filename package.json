@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaus2595/poly.git"
+    "url": "git+https://github.com/komekez/poly"
   },
   "keywords": [
     "logrotator",
@@ -17,7 +18,11 @@
   "author": "Kaustubh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaus2595/poly/issues"
+    "url": "https://github.com/komekez/poly/issues"
   },
-  "homepage": "https://github.com/kaus2595/poly#readme"
+  "homepage": "https://github.com/komekez/poly#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
