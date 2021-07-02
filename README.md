@@ -1,4 +1,4 @@
-Poly Log Rotator
+PolyFox Log Rotator
 ===================
 
 NodeJS Log Rotator 
@@ -6,7 +6,7 @@ NodeJS Log Rotator
 ## Install
 
 ```
-npm install poly
+npm install polyfox
 ```
 
 ## Options
@@ -18,7 +18,7 @@ npm install poly
 ## Example Usage
 ```javascript
     // Rotate every day or every 5 megabytes, whatever comes first.
-    let polyRotateConfig = require('poly').rotateLog(
+    let polyRotateConfig = require('polyfox').rotateLog(
         {
             path : ["logs", "test"], //Array of Directories
             limit : 7 //Optional
@@ -34,4 +34,4 @@ The npm module for this library will be maintained by:
 
 ## License
 
-poly is licensed under the MIT license.
+poly is licensed under the Creative Commons Zero v1.0 Universal License.

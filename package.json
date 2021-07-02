@@ -1,5 +1,5 @@
 {
-  "name": "poly",
+  "name": "polyfox",
   "version": "1.0.0",
   "description": "Log Rotator Package",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/komekez/poly"
+    "url": "git+https://github.com/komekez/polyfox"
   },
   "keywords": [
     "logrotator",
@@ -18,9 +18,9 @@
   "author": "Kaustubh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/komekez/poly/issues"
+    "url": "https://github.com/komekez/polyfox/issues"
   },
-  "homepage": "https://github.com/komekez/poly#readme",
+  "homepage": "https://github.com/komekez/polyfox#readme",
   "dependencies": {
     "chokidar": "^3.5.2",
     "fs": "0.0.1-security",

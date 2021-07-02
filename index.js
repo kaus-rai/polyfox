@@ -20,8 +20,3 @@ export function rotateLog(logConfig) {
         console.log(e);
     }
 }
-
-rotateLog({
-    path : ["logs", "test"],
-    // limit : 7
-});
