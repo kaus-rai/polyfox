@@ -1,6 +1,6 @@
 {
   "name": "polyfox",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Log Rotator Package",
   "main": "lib/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "logrotator",
-    "pino"
+    "pino",
+    "removelogs"
   ],
   "author": "Kaustubh",
   "license": "ISC",
