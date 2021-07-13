@@ -6,3 +6,9 @@ logs
 
 #DS Store File
 .DS_Store
+
+#Test JS
+test.js
+
+#Package Lock file
+package-lock.json
