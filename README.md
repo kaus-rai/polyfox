@@ -13,6 +13,7 @@ npm install polyfox
 
  - *path*:     Array of Directories where rotation needs to be done
  - *limit*:    Limitation of files needs to be present in the directory. Default Limit is 10
+ - *compress*  Option to provide compression for the log files
  
 
 ## Example Usage
@@ -21,7 +22,8 @@ npm install polyfox
     let polyRotateConfig = require('polyfox').rotateLog(
         {
             path : ["logs", "test"], //Array of Directories
-            limit : 7 //Optional
+            limit : 7, //Optional : Default number is 10
+            compress: true //Optional : Default Compression is gz
         }
     );
 ```
@@ -34,4 +36,8 @@ The npm module for this library will be maintained by:
 
 ## License
 
-poly is licensed under the Creative Commons Zero v1.0 Universal License.
+polyfox is licensed under the Creative Commons Zero v1.0 Universal License.
+
+## Features for Next Release
+-> Addition of Self Compression without any Dependencies
+-> More option for compression (compression type)
