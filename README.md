@@ -39,5 +39,7 @@ The npm module for this library will be maintained by:
 polyfox is licensed under the Creative Commons Zero v1.0 Universal License.
 
 ## Features for Next Release
--> Addition of Self Compression without any Dependencies
--> More option for compression (compression type)
+- Addition of Self Compression without any Dependencies
+- More option for compression (compression type)
+
+### Last Updated : 14th July 2021
