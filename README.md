@@ -13,7 +13,7 @@ npm install polyfox
 
  - *path*:     Array of Directories where rotation needs to be done
  - *limit*:    Limitation of files needs to be present in the directory. Default Limit is 10
- - *compress*  Option to provide compression for the log files
+ - *compress*:  Option to provide compression for the log files
  
 
 ## Example Usage
@@ -27,6 +27,8 @@ npm install polyfox
         }
     );
 ```
+
+Currently the compress feature will only work if the daily log name has Date in the format YYYY-MM-DD 
 
 ## NPM Maintainers
 
